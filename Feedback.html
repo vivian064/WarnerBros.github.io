@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Warner Bros Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="styles.css"> <!-- Link the CSS file -->
+	<style>
+
+.feedback-form input[type="text"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-form textarea {
+  height: 150px; /* Adjust the height as desired */
+}
+
+	</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="warner-bros-logo.jpg" alt="WARNER BROS."></a></li>
+                <li><a href="Movies.html">Movies</a></li>
+                <li><a href="TvShows.html">TV Shows</a></li>
+                <li><a href="GamesandApps.html">Games & Apps</a></li>
+                <li><a href="Experience.html">Experience</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+				<li class="search-bar">
+					<form action="#" method="get">
+						<input type="text" name="search" placeholder="Search">
+						<button type="submit">Search</button>
+					</form>
+				</li>
+                <li>
+                    <label for="feedback-checkbox">Feedback</label>
+                    <input type="checkbox" id="feedback-checkbox">
+                    <div id="feedback-form">
+                        <h2>Feedback Form</h2>
+                        <form>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <br>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <br>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <br>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+   <footer>
+	     <section>
+          <ul>
+           <p> Follow Us </p>
+		   <li><a href="https://www.facebook.com/warnerbrosent">Facebook</a></li>
+            <li><a href="https://pin.it/27qwCdN">Pininterest</a></li>
+            <li><a href="https://www.instagram.com/warnerbrosentertainment/">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/warner-bros--entertainment/">LinkedIn</a></li>
+            <li><a href="https://www.youtube.com/user/WarnerBrosPictures">YouTube</a></li>
+            <li></a></li>
+          </ul>
+         </section>    
+		
+	</footer>
+</body>
+</html>

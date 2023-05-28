@@ -1,0 +1,14 @@
+/*styles.css */
+
+.feedback-form input[type="text"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-form textarea {
+  height: 150px; /* Adjust the height as desired */
+}
